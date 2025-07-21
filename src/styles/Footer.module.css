@@ -1,0 +1,39 @@
+/* src/styles/Footer.module.css */
+.footer {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #64ffda;
+}
+
+.socials {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socials a {
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #64ffda;
+}

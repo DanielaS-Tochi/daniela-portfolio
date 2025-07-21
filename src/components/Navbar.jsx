@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <header className={styles.navbar}>
       <div className={styles.logo}>
-        <span className={styles.logoText}>Daniela Dev</span>
+        <span className={styles.logoText}>Daniela Web3 Dev</span>
       </div>
       <nav className={styles.navLinks}>
         <a href="#home">Inicio</a>

@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css';
-import avatar from '../assets/avatar.png';
+import avatar from '../assets/avatar.jpg';
 
 function Home() {
   return (

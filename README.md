@@ -1,12 +1,16 @@
-# React + Vite
+# 🌎 Daniela Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Desde Argentina al mundo (y más allá) 🚀. Desarrollo, Web3, IA y revolución personal.**
 
-Currently, two official plugins are available:
+Construyendo puentes hacia el futuro descentralizado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Este es mi portfolio personal hecho con React + Vite.
+Con foco en accesibilidad, identidad y proyectos Web3 educativos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📫 Contacto: [danielastochi@gmail.com]  
+🔗 GitHub: [danielas-tochi]  
+🌐 Próximamente online.
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DanielaS-Tochi)

@@ -6,7 +6,7 @@ function Home() {
     <main className={styles.hero} role="main">
       <img
         src={avatar}
-        alt="Ilustración de Daniela con laptop, gato, cactus y pelota de fútbol"
+        alt="Ilustración de Daniela con laptop, su gato Lolo, cactus y pelota de fútbol"
         className={styles.avatar}
       />
 

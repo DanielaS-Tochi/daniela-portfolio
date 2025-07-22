@@ -7,7 +7,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
         <p className={styles.text}>
-          Design by <span className={styles.name}>Daniela Web3 Dev</span> © {new Date().getFullYear()}
+          Design by <span className={styles.name}>Daniela Tochi | Web3 & dApp Developer</span> © {new Date().getFullYear()}
         </p>
         <div className={styles.socials}>
           <a

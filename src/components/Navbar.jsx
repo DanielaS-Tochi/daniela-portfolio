@@ -1,19 +1,31 @@
+import React, { useState } from "react";
 import styles from '../styles/Navbar.module.css';
 
-function Navbar() {
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className={styles.navbar}>
-      <div className={styles.logo}>
-        <span className={styles.logoText}>Daniela Web3 Dev</span>
-      </div>
-      <nav className={styles.navLinks}>
-        <a href="#home">Inicio</a>
+    <header className={styles.header}>
+      <div className={styles.logo}>Daniela Tochi | Web3 & dApp Developer</div>
+      
+      <nav className={`${styles.nav} ${open ? styles.open : ""}`}>
+        <a href="#home">Home</a>
         <a href="#about">Sobre mí</a>
         <a href="#projects">Proyectos</a>
         <a href="#contact">Contacto</a>
       </nav>
+
+      <div 
+        className={styles.burger} 
+        onClick={() => setOpen(!open)}
+        aria-label="Abrir menú"
+      >
+        <span className={styles.line}></span>
+        <span className={styles.line}></span>
+        <span className={styles.line}></span>
+      </div>
     </header>
   );
-}
+};
 
 export default Navbar;
